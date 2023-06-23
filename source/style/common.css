@@ -1,3 +1,4 @@
+/* ------------------------------------ Style Reset ------------------------------------ */
 * {margin:0; padding:0; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; word-break: keep-all;}
 html,body{max-width: 100%; min-height: 100%;}
 html{overflow-x: hidden; -webkit-text-size-adjust: none;}
@@ -12,7 +13,7 @@ input[type="submit"], button{cursor:pointer}
 table, tr, td { border-collapse: collapse;}
 p{word-break: keep-all;}
 
-/*그누보드 테마 초기화*/
+/* ------------------------------------ Gnuboard Style Reset ------------------------------------ */
 #hd_wrapper,
 #gnb,
 .latest_wr,
@@ -35,19 +36,23 @@ p{word-break: keep-all;}
 #ft{border-top: 0; background: #fff; padding-bottom: 0; margin: 0 auto; text-align: center;}
 #tnb{display: none;}
 
-input{border-radius: 0;}
 
+/* ------------------------------------ Font Class ------------------------------------ */
 .f_noto{font-family: 'Noto Sans KR', sans-serif;}
 .f_mont{font-family: 'Montserrat', sans-serif;}
 
-/*컨텐츠 가이드라인*/
+/* ------------------------------------ Guide Line ------------------------------------ */
+.container{padding-left: 70px; padding-right: 70px;}
 .wrapper{width: 1600px; max-width: 100%; margin: 0 auto;}
 
-/*clearfix*/
+/* ------------------------------------ Float(clearfix) ------------------------------------ */
 .cf:before,
 .cf:after{content: " "; display: table;}
 .cf:after{clear: both;}
 .cf{*zoom: 1;}
+
+/* ------------------------------------ Form Tag ------------------------------------ */
+input{border-radius: 0;}
 
 /* input radio */
 .radio_wrap input[type=radio]{display: none;}
@@ -63,7 +68,7 @@ input{border-radius: 0;}
 .check_wrap input[type=checkbox]:checked + label:before{border-color: #005e2e;}
 .check_wrap input[type=checkbox]:checked + label:after{content: ""; display: inline-block; position: absolute; left: 4px; bottom: 4px; width: 10px; height: 10px; border-radius: 0; background-color: #005e2e; z-index: 2;}
 
-/* cut text */
+/* ------------------------------------ Text Cut Line ------------------------------------ */
 .cut_text{
 	width:100%;
 	overflow:hidden;

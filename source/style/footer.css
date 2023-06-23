@@ -1,0 +1,10 @@
+/* ------------------------------------ footer ------------------------------------ */
+#footer {min-height: 145px; background: #454545;}
+#footer .ft_info {display: flex; flex-flow: row wrap; justify-content: space-between; align-items: center; height: 55px; border-bottom: 1px solid #666;}
+#footer .fnb_wrap {display: flex; flex-flow: row wrap; align-items: center; gap: 10px 45px;}
+#footer .fnb_wrap li {position: relative;}
+#footer .fnb_wrap li:after {content: ""; display: block; position: absolute; top: 50%; left: -22.5px; z-index: 1; height: 16px; margin-top: -8px; border-left: 1px solid #ddd;}
+#footer .fnb_wrap li:first-child:after {border-left: 0;}
+#footer .fnb_wrap li a {font-size: 16px; font-weight: 400; color: #999;}
+#footer .ft_info-text {font-size: 16px; font-weight: 400; color: #999;}
+#footer .ft_info-text b {font-weight: 400;}
