@@ -53,10 +53,12 @@ const mainVisualSwiper = new Swiper('.main_visual-slider', {
 
 const mainVisualPlayBtn = document.querySelector(".main_visual-play");
 
-mainVisualPlayBtn.addEventListener("click", function(){
-  mainVisualSwiper.autoplay.start();
-  mainVisualTimebar('ing')
-})
+if(mainVisualPlayBtn) {
+  mainVisualPlayBtn.addEventListener("click", function(){
+    mainVisualSwiper.autoplay.start();
+    mainVisualTimebar('ing')
+  })
+}
 
 // [plugin-Swiper] main popup
 const mainPopupSwiper = new Swiper('.main_popup-slider', {
