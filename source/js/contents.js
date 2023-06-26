@@ -58,6 +58,18 @@ mainVisualPlayBtn.addEventListener("click", function(){
   mainVisualTimebar('ing')
 })
 
+// [plugin-Swiper] main popup
+const mainPopupSwiper = new Swiper('.main_popup-slider', {
+  draggable: true,
+  loop: false,
+  slidesPerView: 2,
+  spaceBetween: 13,
+  autoplay: {
+    delay: 4000,
+    disableOnInteraction: false
+  },
+});
+
 $(document).ready(function(){
   skipNav();
 }) //End Document
