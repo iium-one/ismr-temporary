@@ -44,6 +44,7 @@ p{word-break: keep-all;}
 /* ------------------------------------ Guide Line ------------------------------------ */
 .container{padding-left: 70px; padding-right: 70px;}
 .wrapper{width: 1600px; max-width: 100%; margin: 0 auto;}
+.wrapper2{width: 1280px; max-width: 100%; margin: 0 auto;}
 
 /* ------------------------------------ Float(clearfix) ------------------------------------ */
 .cf:before,

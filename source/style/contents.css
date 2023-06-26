@@ -45,3 +45,25 @@
 .main_popup-slider .swiper-slide {display: block;}
 .main_popup-slider .swiper-slide.banner1{}
 .main_popup-slider .swiper-slide.banner2{}
+
+/* Sub */
+.sub_visual {display: flex; justify-content: center; align-items: flex-end; height: 460px;}
+.sub_visual .inner {margin-bottom: -40px;}
+
+.sub_dp1_title {font-size: 64px; font-weight: 700; color: #fff; line-height: 1;}
+.sub_dp2_title {font-size: 46px; font-weight: 700; color: #0f0f0f; line-height: 1;}
+
+.sub_location {overflow: hidden; margin-top: 50px; border-radius: 25px 25px 0 0; background: linear-gradient(90deg, rgba(16,156,218,1) 0%, rgba(11,105,221,1) 100%);}
+.sub_location_wrap {display: flex; flex-flow: row wrap; align-items: center; height: 80px;}
+.sub_location_wrap > li {position: relative;}
+.sub_location_wrap > li:after {content: ""; display: block; position: absolute; top: 50%; right: 0; z-index: 1; height: 19px; margin-top: -9.5px; border-left: 1px solid #fff;}
+.sub_location .home-btn {display: block; padding: 0 30px;}
+.sub_location .home-btn img {width: 21px; margin-top: -4px; vertical-align: middle;}
+.sub_location select {min-width: 280px; padding: 0 40px 0 20px; border: 0; font-size: 18px; font-weight: 400; color: #fff; background: transparent url('/source/img/arrow-down2.png') no-repeat center right 17px/13px auto; outline: none; appearance: none;}
+.sub_location select::-ms-expand {display: none;}
+
+.sub_page_title {margin-top: 140px; margin-bottom: 30px; text-align: center;}
+
+/* 커뮤니티 */
+/* > FAQ */
+.community .sub_visual {background: url('/source/img/sub_top_bg-community.jpg') no-repeat center/cover;}
