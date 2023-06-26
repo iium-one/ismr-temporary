@@ -8,3 +8,9 @@
 #footer .fnb_wrap li a {font-size: 16px; font-weight: 400; color: #999;}
 #footer .ft_info-text {font-size: 16px; font-weight: 400; color: #999;}
 #footer .ft_info-text b {font-weight: 400;}
+#footer .ft_rel-sel {min-width: 210px; height: 25px; margin-left: 20px; padding: 0 30px 0 20px; border: 0; border-left: 1px solid #ddd; font-size: 16px; font-weight: 300; color: #999; background: transparent url('/source/img/arrow-down.png') no-repeat center right 13px/8px auto; outline: none; appearance: none;}
+#footer .ft_rel-sel::-ms-expand {display: none;}
+
+#footer .ft_copy {display: flex; flex-flow: row wrap; justify-content: space-between; align-items: flex-start; margin-top: 25px;}
+#footer .ft_copy-text {font-size: 14px; font-weight: 400; color: #999;}
+#footer .ft_logo {display: block; width: 228px;}
