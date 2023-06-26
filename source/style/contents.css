@@ -61,6 +61,7 @@
 .sub_location .home-btn img {width: 21px; margin-top: -4px; vertical-align: middle;}
 .sub_location select {min-width: 280px; padding: 0 40px 0 20px; border: 0; font-size: 18px; font-weight: 400; color: #fff; background: transparent url('/source/img/arrow-down2.png') no-repeat center right 17px/13px auto; outline: none; appearance: none;}
 .sub_location select::-ms-expand {display: none;}
+.sub_location select option {color: #0f0f0f;}
 
 .sub_page_title {margin-top: 140px; margin-bottom: 30px; text-align: center;}
 
