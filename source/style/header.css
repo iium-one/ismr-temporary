@@ -4,10 +4,14 @@
 .skip_nav .skip_nav_wrap a {color:#ffffff; font-size:14px; margin-right:10px;}
 
 /* ------------------------------------ header ------------------------------------ */
-#header {position: fixed; top: 0; left: 0; z-index: 700; width: 100%;}
-#header .inner {display: flex; flex: row wrap; justify-content: space-between; align-items: center; height: 110px;}
+#header {position: fixed; top: 0; left: 0; z-index: 700; width: 100%; transition: 0.5s;}
+#header .inner {display: flex; flex: row wrap; justify-content: space-between; align-items: center; height: 110px; transition: 0.5s;}
 #header .hd_logo {width: 297px;}
 
 #header .gnb_wrap {display: flex; flex: row wrap; align-items: center; gap: 0 50px;}
 #header .gnb_wrap .depth1 {}
 #header .gnb_wrap .depth1 > a {display: block; font-size: 18px; font-weight: 400; color: #fff;}
+
+#header.act {background: rgba(255,255,255,0.8);}
+#header.act .inner {height: 80px;}
+#header.act .gnb_wrap .depth1 > a {color: #0f0f0f;}

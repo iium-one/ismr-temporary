@@ -47,6 +47,7 @@
 .main_popup-slider .swiper-slide.banner2{}
 
 /* Sub */
+.sub {padding-bottom: 100px;}
 .sub_visual {display: flex; justify-content: center; align-items: flex-end; height: 460px;}
 .sub_visual .inner {margin-bottom: -40px;}
 

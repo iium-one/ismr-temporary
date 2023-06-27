@@ -1,0 +1,42 @@
+/* 상단 검색 영역 */
+.faq_search-section {margin-bottom: 15px;}
+.faq_search-section .inner{display: flex; flex-flow: row wrap; justify-content: space-between; align-items: flex-end;}
+
+.board_total {font-size: 16px; font-weight: 300; color: #666; line-height: 1;}
+.board_total b {margin-left: 9px; font-size: 20px; font-weight: 400; color: #227ace;}
+
+.board_search {position: relative;}
+.board_search-input {width: 415px; height: 50px; padding: 0 20px; border: 1px solid #ddd; border-radius: 25px; font-size: 16px; font-weight: 300; color: #0f0f0f;}
+.board_search-input::placeholder {color: #999;}
+.board_search-submit {position: absolute; top: 50%; right: 20px; z-index: 10; width: 18px; transform: translateY(-50%); border: 0; background: none;}
+.board_search-submit img {vertical-align: middle;}
+
+/* 페이징 */
+.pg_wrap {display: block; float: none; margin-top: 30px; clear: both; text-align: center;}
+.pg_wrap:after {display:block;visibility:hidden;clear:both;content:""} 
+.pg {text-align: center;}
+.pg_page, .pg_current {display:inline-block;vertical-align:middle;background:none;border:0}
+.pg a:focus, .pg a:hover {text-decoration:none}
+.pg_page {font-size:16px;font-weight: 500;color: #666;height:50px;line-height:50px;padding:0;min-width:50px;text-decoration:none;border-radius:50%;}
+.pg_page:hover {background-color: none;}
+.pg_start {text-indent:-999px;overflow:hidden;background:#fff;padding:0;border:1px solid #ddd}
+.pg_prev {text-indent:-999px;overflow:hidden;background:#fff;padding:0;border:1px solid #ddd}
+.pg_end {text-indent:-999px;overflow:hidden;background:#fff;padding:0;border:1px solid #ddd}
+.pg_next {text-indent:-999px;overflow:hidden;background:#fff;padding:0;border:1px solid #ddd}
+.pg_start:hover,.pg_prev:hover,.pg_end:hover,.pg_next:hover {background-color:#fff; border-color: #227ace;}
+
+.pg_current {display:inline-block;background:none;border:0;color:#227ace;font-weight:500;height:50px;line-height:50px;padding:0;min-width:50px;border-radius:0}
+
+/* 텍스트형 공통 */
+.bo-text-list .post_wrap{border-top: 2px solid #717171;}
+
+/* 텍스트형 - 타입 A */
+.bo-text-list.type-a {}
+.bo-text-list.type-a .post {display: flex; padding: 37px 0; border-bottom: 1px solid #e8e8e8; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: space-around; align-items: center; font-size: 16px; font-weight: 300; color: #666;}
+.bo-text-list.type-a .post .num {flex: 0 0 100px; text-align: center;}
+.bo-text-list.type-a .post .date {flex: 0 0 140px; text-align: center; color: #999;}
+.bo-text-list.type-a .post .subj {flex: 1 0 auto;}
+.bo-text-list.type-a .post .subj .text {display: block; padding-left: 10px; font-size: 18px; font-weight: 300; color: #333;}
+
+.bo-text-list.type-a .post:hover .subj .text {color: #0a69dd;}
+.bo-text-list.type-a .post:hover .date {color: #0a69dd;}
