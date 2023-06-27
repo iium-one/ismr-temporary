@@ -11,4 +11,14 @@ function skipNav() {
   });
 }
 
-export { skipNav }
+function scrollZero() {
+  $(window).scroll(function() {
+    if($(window).scrollTop() > 50) {
+      $('#header').addClass('act').find('img').attr('src','/source/img/logo.png');
+    } else {
+      $('#header').removeClass('act').find('img').attr('src','/source/img/logo-white.png');;
+    }
+  });
+}
+
+export { skipNav, scrollZero }

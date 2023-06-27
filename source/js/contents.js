@@ -1,7 +1,7 @@
 'use strict'
 
 import { addZero } from './modules/add-zero.js';
-import { skipNav } from './common.js';
+import { skipNav, scrollZero } from './common.js';
 
 // [plugin-Swiper] main visual
 const mainVisualTimebar = (state) => {
@@ -74,4 +74,5 @@ const mainPopupSwiper = new Swiper('.main_popup-slider', {
 
 $(document).ready(function(){
   skipNav();
+  scrollZero();
 }) //End Document
