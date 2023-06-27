@@ -36,7 +36,7 @@
 .bo-text-list.type-a .post .num {flex: 0 0 100px; text-align: center;}
 .bo-text-list.type-a .post .date {flex: 0 0 140px; text-align: center; color: #999;}
 .bo-text-list.type-a .post .subj {flex: 1 0 auto;}
-.bo-text-list.type-a .post .subj .text {display: block; padding-left: 10px; font-size: 18px; font-weight: 300; color: #333;}
+.bo-text-list.type-a .post .subj .text {padding-left: 10px; font-size: 18px; font-weight: 300; color: #333;}
 
 .bo-text-list.type-a .post:hover .subj .text {color: #0a69dd;}
 .bo-text-list.type-a .post:hover .date {color: #0a69dd;}
